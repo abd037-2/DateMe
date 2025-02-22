@@ -1,0 +1,68 @@
+body {
+    background-image: url('../assets/images/background.png');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+#gif {
+    width: 250px;
+    height: auto;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#yesBtn {
+    background-color: green;
+    color: white;
+}
+
+#noBtn {
+    background-color: red;
+    color: white;
+}
+
+#yesBtn:hover {
+    background-color: darkgreen;
+}
+
+#noBtn:hover {
+    background-color: darkred;
+}
+
+#letsGoBtn {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    background-color: gold;
+    border-radius: 10px;
+    cursor: pointer;
+}
